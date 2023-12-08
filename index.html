@@ -4,10 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyBlog-Eva</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Hello this guys this is my blogpost</h1>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="row">
+                <div class="logo">
+                    <a href="#">Portfo <span>lio.</span></a>
+                </div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">pages</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    <!-- menu  -->
+    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">☰</div>
+    <div class="mobile-menu">
+        <a href="#" onclick="toggleMobileMenu()">Home</a>
+        <a href="#" onclick="toggleMobileMenu()">About</a>
+        <a href="#" onclick="toggleMobileMenu()">Services</a>
+        <a href="#" onclick="toggleMobileMenu()">Portfolio</a>
+        <a href="#" onclick="toggleMobileMenu()">Pages</a>
+        <a href="#" onclick="toggleMobileMenu()">Contact</a>
     </div>
+            <!-- <h1>Hello this guys this is my blogpost</h1> -->
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <main>
+        <section class="home">
+            <div class="row">
+                <div class="home-content">
+                    <div class="text-1">Get every single solution</div>
+                    <div class="text-2">I'm a web developper</div>
+                    <div class="text-3">Marc-Donald OMEUS</div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Qui obcaecati at modi adipisci
+                        error.
+                        Ea,
+                        possimus! Repellendus ad vitae adipisci aliquam,<br> dolores distinctio fuga in dolorum
+                        exercitationem
+                        voluptate sunt similique!
+                    </p>
+                    <a href="#">Hire me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+<script src="./assets/js/script.js"></script>
 </body>
+
 </html>
