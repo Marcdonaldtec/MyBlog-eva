@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <style>
     </style>
 </head>
+
 <body>
     <!-- navbar -->
     <header>
@@ -39,16 +41,17 @@
                     </li>
                 </ul>
             </div>
-    <!-- menu  -->
-    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">☰</div>
-    <div class="mobile-menu">
-        <a href="#" onclick="toggleMobileMenu()">Home</a>
-        <a href="#" onclick="toggleMobileMenu()">About</a>
-        <a href="#" onclick="toggleMobileMenu()">Services</a>
-        <a href="#" onclick="toggleMobileMenu()">Portfolio</a>
-        <a href="#" onclick="toggleMobileMenu()">Pages</a>
-        <a href="#" onclick="toggleMobileMenu()">Contact</a>
-    </div>
+            <!-- menu  -->
+            <div class="mobile-menu-icon" onclick="toggleMobileMenu()">☰</div>
+            <div class="mobile-menu">
+                <a href="#" onclick="toggleMobileMenu()">Home</a>
+                <a href="#" onclick="toggleMobileMenu()">About</a>
+                <a href="#" onclick="toggleMobileMenu()">Services</a>
+                <a href="#" onclick="toggleMobileMenu()">Portfolio</a>
+                <a href="#" onclick="toggleMobileMenu()">Pages</a>
+                <a href="#" onclick="toggleMobileMenu()">Contact</a>
+
+            </div>
             <!-- <h1>Hello this guys this is my blogpost</h1> -->
         </nav>
     </header>
@@ -76,7 +79,16 @@
     </main>
 
 
-<script src="./assets/js/script.js"></script>
+    <footer>
+        <p>&copy; 2023 Your Portfolio Name</p>
+        <label for="language">Select Language:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+        </select>
+    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

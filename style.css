@@ -33,7 +33,7 @@
 
 .navbar .logo a {
     color: #fff;
-    font-size: 2rem; 
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -72,7 +72,7 @@
     background-size: cover;
     background-attachment: cover;
     color: #fff;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .home .row {
@@ -81,27 +81,27 @@
 
 .home .home-content .text-1 {
     text-transform: uppercase;
-    font-size: 1rem; 
+    font-size: 1rem;
     margin: 12px;
 }
 
 .home .home-content .text-2,
 .home .home-content .text-3 {
     color: rgb(241, 91, 5);
-    font-size: 3rem; 
+    font-size: 3rem;
     font-weight: 600;
     margin: 20px;
 }
 
 .home .home-content p {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .home .home-content a {
     display: inline-block;
     background: none;
     color: rgb(241, 91, 5);
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     padding: 10px 1.8rem;
     margin-top: 20px;
     border: 2px solid rgb(241, 91, 5);
@@ -120,20 +120,20 @@
     cursor: pointer;
     font-size: 1.5rem;
     color: #fff;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .mobile-menu {
     display: none;
     flex-direction: column;
-    background-color:#ffffff1d;
+    background-color: #ffffff1d;
     position: absolute;
     top: 80px;
     right: 0;
     width: 20%;
     text-align: center;
     z-index: 1000;
-    
+
 }
 
 .mobile-menu a {
@@ -142,6 +142,22 @@
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+}
+/* Additional styles for the custom footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer select {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 /* Media Query for the mobile menu */
@@ -166,7 +182,7 @@
     /* Adjustments for smaller screens */
     .home .home-content .text-2,
     .home .home-content .text-3 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     .home .home-content p {
@@ -174,8 +190,9 @@
     }
 
     .home .home-content a {
-        font-size: 1.2rem; 
-        padding: 8px 1.6rem; 
+        font-size: 1.2rem;
+        padding: 8px 1.6rem;
         margin-top: 15px;
     }
 }
+
